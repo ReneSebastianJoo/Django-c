@@ -3,6 +3,7 @@ from django.contrib import admin
 from . import views
 
 urlpatterns = [
-    path('', views.frontpage, name='frontpge')
+    path('', views.frontpage, name='frontpage'),
+    path('signup/',views.signup, name='signup')
      
 ]
